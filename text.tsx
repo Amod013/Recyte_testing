@@ -27,10 +27,6 @@ export default function CounterComponent({ title, initialValue = 0 }: CounterPro
     const handleDecrement = (): void => {
         if (count > 0) {
             setCount((prevCount) => prevCount - 1);
-            console.log(count)
-            console.log(count)
-            console.log(count)
-
         }
     };
 
