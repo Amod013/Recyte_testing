@@ -6,13 +6,8 @@ const LoginForm = () => {
     const [password, setPassword] = useState<string>('');
 
     const handleLogin = (): void => {
-        console.log("API TESTING")
         // Dummy credentials check
-        if (username === 'admin' && password === 'password123') {
-            Alert.alert('Success', 'Welcome back, Admin!');
-        } else {
-            Alert.alert('Error', 'Invalid username or password.');
-        }
+        Alert.alert("Login Success")
     };
 
     return (
